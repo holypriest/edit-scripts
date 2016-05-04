@@ -1,0 +1,3 @@
+Manuscript ID - Latest	Corresponding Author Name	Corresponding Author Email	Corresponding Author Country
+QN-2027-0001.R2	Doe, John	johndoe@foo.com	Brazil
+QN-2027-0002.R1	Carreras, Juanita	juanicar@bar.edu.co	Colombia

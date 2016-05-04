@@ -1,0 +1,61 @@
+\documentclass[12pt]{letter}
+\usepackage[a4paper]{geometry}
+\geometry{margin=0.8in}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{color}
+\definecolor{Navy}{RGB}{50,90,122}
+
+\begin{document}
+
+\date{\begin{flushright}\today\end{flushright}}
+\begin{letter}{\bfseries #cat# - #num#}
+
+\colorbox{Navy}{
+
+\parbox[t]{\linewidth}{
+
+\vspace*{14pt}
+
+\begin{center}\color{white} \textsc{\bfseries \huge Your Company}\end{center}
+
+\vspace*{14pt}
+}}
+
+%----------------------------------------------------------------------------------------
+%	SIGNATURE
+%----------------------------------------------------------------------------------------
+
+\signature{
+\textbf{Your name} \\ % Your name
+Editorial Assistant - Your company \\ % Job title
+\smallskip
+\small{e-mail: someone@somewhere.com} \\% Contact information
+%\small{phone: +55.11.XXXXXXXX} % Contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{#opn#}
+
+\fontsize{12pt}{15pt}\selectfont
+
+Please, find enclosed the galley proof of your manuscript to be published in {Your Company}. We kindly request that you check it thoroughly, paying particular attention to numerical data, tables, figures and references. All the changes should be listed using page and line numbers where errors occur {\bfseries (if possible, use highlight tools and comments provided by your pdf reader sofware)}. Please, also pay attention to any queries that appeared during the reviewing and editing processes.
+
+{\bfseries Authors are advised to read galley proofs with great care and return the corrections within 3 days.}
+
+The pdf-version of the article will be published on the web and will have the exact contents of the printed version.
+
+The undersigned author(s) agree(s) with the submission and the future publication of the article in Química Nova and state(s) that the paper has not been submitted to any other journal.
+
+
+\closing{Sincerely yours,}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}

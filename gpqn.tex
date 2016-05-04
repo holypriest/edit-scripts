@@ -1,0 +1,67 @@
+\documentclass[12pt]{letter}
+\usepackage[a4paper]{geometry}
+\geometry{margin=0.8in}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{color}
+\definecolor{Navy}{RGB}{50,90,122}
+
+\begin{document}
+
+\date{\begin{flushright}\today\end{flushright}}
+\begin{letter}{\bfseries #cat# - #num#}
+
+\colorbox{Navy}{
+
+\parbox[t]{\linewidth}{
+
+\vspace*{14pt}
+
+\begin{center}\color{white} \textsc{\bfseries \huge Your Company}\end{center}
+
+\vspace*{14pt}
+}}
+
+%----------------------------------------------------------------------------------------
+%	SIGNATURE
+%----------------------------------------------------------------------------------------
+
+\signature{
+\textbf{Your name} \\ % Your name
+Editorial Assistant - Your company \\ % Job title
+\smallskip
+\small{e-mail: someone@somewhere.com} \\% Contact information
+%\small{phone: +55.11.XXXXXXXX} % Contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{#opn#}
+
+\fontsize{11pt}{15pt}\selectfont
+
+Estamos encaminhando a prova tipográfica de seu artigo, em arquivo pdf, que deverá ser publicado em um dos próximos números da Revista Sua Revista. Quando finalizado, este estará disponível no site da revista, na seção Artigos no Prelo e, quando for publicado, estará já paginado juntamente com o índice do número, na seção Edição Atual.
+
+{\bfseries Solicitamos que verifique cuidadosamente a prova em anexo, pois o manuscrito é susceptível a erros de diagramação, substituição de caracteres (símbolos, letras gregas etc.), perda de formatação (negrito, itálico etc.) entre outros.}
+
+A revista adota a Nova Ortografia em todos os manuscritos.
+
+Verificar se há referências que necessitam ser atualizadas e/ou se todas estão de acordo com as normas da revista disponíveis em http://seudominio.org.br. Verificar também se endereços da internet continuam existindo e atualizar a data de acesso ou, caso a página web não esteja mais disponível, substituir a referência.
+
+{\bfseries Nesta fase não se permite reescrever frases e/ou trechos do manuscrito. Apenas devem ser corrigidos erros de digitação e/ou de diagramação.}
+
+{\bfseries Uma vez enviadas as correções, não haverá chance para futuras alterações ou para publicação de errata por algo que já esteja no pdf enviado e não tenha sido corrigido pelo autor.} Caso seja necessário publicar errata por falha da editoria, a publicação será feita, no máximo, em um dos dois números subsequentes à publicação do manuscrito.
+
+Pedimos que nos envie por e-mail, no prazo máximo de {\bfseries 72 horas}, a relação das correções a serem feitas. {\bfseries Encorajamos os autores a fazerem as correções no próprio pdf, utilizando ferramentas de marcação}. Em última instância, o pdf apresenta as linhas numeradas: indique apenas a página, a linha e a modificação a ser realizada em um documento do word. Se houver necessidade de correção em Figuras, Esquemas, Gráficos, Tabelas, entre outros, favor enviar arquivo corrigido por e-mail. Caso não haja correção a ser feita, favor informar claramente.
+
+\closing{Atenciosamente,}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
