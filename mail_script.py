@@ -46,7 +46,7 @@ for artcod in to_send:
     author = Author(auth_info)
     mail = Mail(author, manuscript)
     mail.send()
-    print 'e-mail enviado para: %s' % infodb[artcod][1].lower()
+    print '%s: e-mail enviado para %s' % (artcod, infodb[artcod][1].lower())
 with open('sent.txt', 'a') as sent: # write in sent.txt the article # of sent
     for artcod in to_send:
         sent.write(artcod)
