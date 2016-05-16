@@ -1,5 +1,3 @@
-#added a comment
-
 class Manuscript:
 
     def __init__(self, msid):
