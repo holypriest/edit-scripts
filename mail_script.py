@@ -1,5 +1,3 @@
-# added some comments
-
 from manuscript import Manuscript
 from author import Author
 from mail import Mail
